@@ -37,13 +37,22 @@
 }
 
 
-.content-box .form-box h2 {
-    color: #32324f;
-    font-weight: 600;
-    font-size: 2em;
+.content-box .form-box img {
+    width: 100%;
+    height: 100%;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     text-align: center;
+}
+
+.content-box .form-box h5 {
+    font-family: Muli, Roboto, "Helvetica", Arial, sans-serif;
+    font-weight: 80;
+    font-size: 1.0rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-box .form-box .input-box {
@@ -67,7 +76,7 @@
     margin-bottom: 5px;
     display: inline-block;
     color: #32324f;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .content-box .form-box .input-box input::placeholder {

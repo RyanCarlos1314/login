@@ -60,14 +60,9 @@
 }
 
 .content-box .form-box .input-box input {
+    border-color:#b8b4b4;
     width: 100%;
-    padding: 10px;
-    outline: none;
-    border-color: #A543FA;
-    font-weight: 400;
-    font-size: 17px;
-    color: #32324f;
-    background-color: #ecf2f7;
+    padding: 9px;
     border-radius: 5px;
 }
 
@@ -79,10 +74,6 @@
     font-weight: 400;
 }
 
-.content-box .form-box .input-box input::placeholder {
-    color: #a9adb6;
-}
-
 .content-box .form-box .input-box input[type=submit] {
     background: #8717e9;
     color: #fff;
@@ -91,7 +82,7 @@
     font-weight: 500;
     cursor: pointer;
     font-size: 20px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .content-box .form-box .input-box input[type=submit]:hover {
